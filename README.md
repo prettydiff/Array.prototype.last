@@ -7,7 +7,7 @@ Code
     //everything in 6 lines
     Array.prototype.last = function () {
         if (this.length === 0) {
-            return null;
+            return undefined;
         }
         return this[this.length - 1];
     };
