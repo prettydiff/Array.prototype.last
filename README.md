@@ -40,8 +40,8 @@ minus 1.  Example:
 
 The proposed `last` method is slower, because it requires access to a global
 protoype, which is the absolute last stop in the scope chain and performs the
-exact same task as the direct and fast approach. It is could be faster, though.
-Much faster.
+exact same task as the direct and fast approach. Here is a [JSPerf experiment](http://jsperf.com/array-prototype-last)
+It could be faster, though. Much faster.
 
 If this proposed method were a supported ECMAScript feature simple
 implementation details could make this proposal immediately fast. If, for
