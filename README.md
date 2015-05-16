@@ -50,3 +50,13 @@ instance, arrays contained a hidden property that always stored a reference to
 the contents of the final index then this value could be accessed directly
 without searching the array, a reference from an index, or referencing it's
 length.
+
+Intellectual Property Status
+---
+
+This document wishes to accept and conform to all limitations and rights
+expressed in the
+[TC39 RF Patent Policy](http://www.ecma-international.org/memento/TC39%20policy/Ecma%20Experimental%20TC39%20Royalty-Free%20Patent%20Policy.pdf)
+and
+[TC39 Software Copyright Policy](http://www.ecma-international.org/memento/TC39%20experimental%20policy.htm).
+I, Austin Cheney, have registered as a TC39 contributor.
